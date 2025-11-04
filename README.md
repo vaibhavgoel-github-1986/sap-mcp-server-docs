@@ -26,20 +26,39 @@ docker-compose up -d
 
 ## VS Code Configuration
 
-Add this to your VS Code `settings.json`:
+Add this to your VS Code MCP settings (`mcp.json`):
 
 ```json
 {
-  "mcp.servers": {
+  "servers": {
     "sap-mcp-server": {
-      "url": "http://localhost:8001/sse",
-      "transport": "sse"
+      "type": "http",
+      "url": "http://localhost:8001/mcp/",
+      "headers": {
+        "x-hostname": "https://your-sap-system.com:44300",
+        "x-username": "your_username",
+        "x-password": "${input:password}",
+        "x-client": "110"
+      }
     }
-  }
+  },
+  "inputs": [
+    {
+      "id": "password",
+      "type": "promptString",
+      "description": "Enter SAP Password",
+      "password": true
+    }
+  ]
 }
 ```
 
-**That's it!** Now you can ask GitHub Copilot to interact with your SAP system.
+**Replace:**
+- `https://your-sap-system.com:44300` with your SAP system URL
+- `your_username` with your SAP username
+- `110` with your SAP client number
+
+**That's it!** Now you can ask GitHub Copilot to interact with your SAP system. It will prompt for your password when needed.
 
 ---
 
