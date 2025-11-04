@@ -2,6 +2,8 @@
 
 Connect GitHub Copilot or Claude to your SAP system. Create, modify, and manage SAP objects using natural language.
 
+📋 **[View Changelog](CHANGELOG.md)** | 🐳 **[Docker Hub](https://github.com/vaibhavgoel-github-1986/sap-mcp-server-docs/pkgs/container/sap-mcp-server)** | 🐛 **[Report Issues](https://github.com/vaibhavgoel-github-1986/sap-mcp-server-docs/issues)**
+
 ## 🚀 Quick Start - 2 Options
 
 ### Option 1: One Command (Easiest)
