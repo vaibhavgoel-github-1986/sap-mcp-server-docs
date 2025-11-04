@@ -7,7 +7,7 @@ All notable changes to SAP MCP Server will be documented in this file.
 ### Initial Release
 
 #### Features
-- 🚀 38+ MCP tools for SAP development
+- 🚀 24+ MCP tools for SAP development
 - 🔧 ABAP object management (classes, programs, CDS views, tables, RAP APIs, Service Def, Service Binding)
 - 🔍 Object search and discovery
 - 📝 Source code operations (get, set, format, syntax check)
