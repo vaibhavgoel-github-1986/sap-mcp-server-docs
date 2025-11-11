@@ -2,9 +2,16 @@
 
 All notable changes to SAP MCP Server will be documented in this file.
 
-## [1.0.0] - 2025-11-03
+## [1.0.0] - 2025-11-11
 
-### Initial Release
+### Published Release
+
+#### 📦 Release Information
+- **Image**: `ghcr.io/vaibhavgoel-github-1986/sap-mcp-server:v1.0.0`
+- **Size**: ~635 MB
+- **Platforms**: Linux (amd64, arm64)
+- **Base Image**: Python 3.12-slim
+- **Published**: November 11, 2025
 
 #### Features
 - 🚀 **24+ MCP tools** for comprehensive SAP development

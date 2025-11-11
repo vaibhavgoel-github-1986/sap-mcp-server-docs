@@ -2,14 +2,28 @@
 
 Connect GitHub Copilot or Claude to your SAP system. Create, modify, and manage SAP objects using natural language.
 
-📋 **[View Changelog](CHANGELOG.md)** | 🐳 **[Docker Hub](https://github.com/vaibhavgoel-github-1986/sap-mcp-server-docs/pkgs/container/sap-mcp-server)** | 🐛 **[Report Issues](https://github.com/vaibhavgoel-github-1986/sap-mcp-server-docs/issues)**
+📋 **[View Changelog](CHANGELOG.md)** | 🐳 **[Docker Image](https://github.com/vaibhavgoel-github-1986/sap-mcp-server-docs/pkgs/container/sap-mcp-server)** | 🐛 **[Report Issues](https://github.com/vaibhavgoel-github-1986/sap-mcp-server-docs/issues)**
 
-## 🚀 Quick Start - 2 Options
+## � Latest Release
+
+- **Version**: v1.0.0
+- **Published**: November 11, 2025
+- **Image**: `ghcr.io/vaibhavgoel-github-1986/sap-mcp-server:latest`
+- **Size**: ~635 MB
+- **Platforms**: Linux (amd64, arm64)
+
+## �🚀 Quick Start - 2 Options
 
 ### Option 1: One Command (Easiest)
 
 ```bash
 docker run -d -p 8001:8001 --name sap-mcp-server ghcr.io/vaibhavgoel-github-1986/sap-mcp-server:latest
+```
+
+Or use a specific version:
+
+```bash
+docker run -d -p 8001:8001 --name sap-mcp-server ghcr.io/vaibhavgoel-github-1986/sap-mcp-server:v1.0.0
 ```
 
 ### Option 2: Docker Compose (Recommended)
