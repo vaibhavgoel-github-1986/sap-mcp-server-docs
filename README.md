@@ -6,8 +6,8 @@ Connect GitHub Copilot or Claude to your SAP system. Create, modify, and manage 
 
 ## � Latest Release
 
-- **Version**: v1.0.0
-- **Published**: November 11, 2025
+- **Version**: v1.1.0
+- **Published**: January 25, 2026
 - **Image**: `ghcr.io/vaibhavgoel-github-1986/sap-mcp-server:latest`
 - **Size**: ~635 MB
 - **Platforms**: Linux (amd64, arm64)
